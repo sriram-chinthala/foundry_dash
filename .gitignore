@@ -1,0 +1,21 @@
+# Python environments and compilation
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.mypy_cache/
+
+# Dash and Diskcache Manager files
+/cache/          # Your diskcache directory
+.webassets-cache/
+
+# Data files (Exclude large data used by the app, keep core data)
+# If 'data' folder contains large historical data, consider ignoring it
+# If the 'data' folder only contains small config files like universes.yaml, you can keep it tracked.
+# Example if data is large:
+# /data/
+
+# IDE/OS files
+.DS_Store
+.idea/
+.vscode/
